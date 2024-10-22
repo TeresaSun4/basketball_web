@@ -1,0 +1,154 @@
+/*body styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('static/images/background.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover;
+    color: #333;
+}
+
+/* Left-hand side */
+header {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f0a500; /* Add hover effect */
+}
+
+/* Main content area */
+main {
+    margin-left: 220px; /* Offset content by the width of the sidebar */
+    padding: 40px;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.85); /* White background with transparency */
+    border-radius: 8px;
+}
+
+/* Intro section */
+.intro {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    color: #444;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+/* Photo gallery section */
+.gallery {
+    margin: 40px 0;
+}
+
+.gallery h2 {
+    text-align: center;
+    color: #444;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 32%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Join Us Section */
+.join-us {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.join-us h2 {
+    color: #444;
+}
+
+.join-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-us input[type="text"], 
+.join-us input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.join-us button {
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.join-us button:hover {
+    background-color: #444;
+}
+
+/* Contact Information Section */
+.contact-info {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: #444;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
