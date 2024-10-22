@@ -36,19 +36,19 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f0a500; /* Add hover effect */
+    color: #f0a500; 
 }
 
 /* Main content area */
 main {
-    margin-left: 220px; /* Offset content by the width of the sidebar */
+    margin-left: 220px; 
     padding: 40px;
     max-width: 1200px;
-    background-color: rgba(255, 255, 255, 0.85); /* White background with transparency */
+    background-color: rgba(255, 255, 255, 0.85); 
     border-radius: 8px;
 }
 
-/* Intro section */
+/* Intro */
 .intro {
     text-align: center;
     padding: 20px 0;
@@ -64,7 +64,7 @@ main {
     margin: 20px 0;
 }
 
-/* Photo gallery section */
+/* Photo gallery */
 .gallery {
     margin: 40px 0;
     text-align: center;
@@ -82,10 +82,10 @@ main {
 }
 
 .gallery img:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.05); 
 }
 
-/* Join Us Section */
+/* Join Us */
 .join-us {
     margin: 40px 0;
     text-align: center;
@@ -123,7 +123,7 @@ main {
     background-color: #444;
 }
 
-/* Contact Information Section */
+/* Contact Information */
 .contact-info {
     margin: 40px 0;
     text-align: center;
