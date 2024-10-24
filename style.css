@@ -4,11 +4,16 @@
 }
 
 img{
-    width: 10%;
+    width: 30%;
     border-radius: 5px;
     position:right;
 }
 
+.logo{
+    width:30%;
+    border-radius: 5px;
+    position:relative;
+}
 
 /* Body styles */
 .body {
@@ -28,8 +33,8 @@ div {
 
 /* Left-hand side */
 header {
-    background-image: url("./images/download-1.jpg");
-    color: rgb(37, 162, 143);
+    background-image: url("./images/G2.jpg");
+    color: rgb(255, 255, 255);
     width: auto;
     height: auto;
     position: center;
@@ -45,7 +50,7 @@ header {
 
  nav {
     margin: 20px 0;
-    color: rgb(12, 77, 22);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     position: center;
  } 

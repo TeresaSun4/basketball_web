@@ -3,21 +3,21 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #1d8069;
+    color: #000000;
 }
 
 h1 {
     text-align: center;
     margin: 20px 0;
     font-size: 2.5em;
-    color: #444;
+    color: #000000;
 }
 
 p {
     text-align: center;
     font-size: 1.2em;
-    color: #666;
+    color: #000000;
 }
 
 /* Photo Gallery Styles */
@@ -46,6 +46,14 @@ p {
 .gallery img:hover {
     transform: scale(1.05); /* Slight zoom effect on hover */
 }
+
+
+div{
+    width: 100%;
+    border-radius: 50px;
+    position:right;
+}
+
 
 /* Footer Styles */
 footer {

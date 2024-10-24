@@ -2,12 +2,12 @@ body {
     font-family: 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #9a1616;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #10592d;
+    color: rgba(84, 4, 4, 0.669);
     text-align: center;
     padding: 10px 0;
 }
@@ -20,9 +20,21 @@ h2 {
     color: #444;
 }
 
+img{
+    width: 10%;
+    border-radius: 5px;
+    position:right;
+}
+
 footer {
-    background-color: #333;
+    background-color: #205a0d;
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+img{
+    width: 10%;
+    border-radius: 5px;
+    position:right;
 }
