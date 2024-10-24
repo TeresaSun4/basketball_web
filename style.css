@@ -3,17 +3,34 @@
     box-sizing:border-box;
 }
 
-img{
-    width: 30%;
-    border-radius: 5px;
-    position:right;
+
+/* Styling for only the image with the class 'framed-image' */
+.framed-image {
+    width: 30%;             /* Size of the image */
+    border: 5px solid #004e42;  /* Frame thickness and initial color (black) */
+    border-radius: 10px;     /* Rounded corners for the frame */
+    padding: 10px;           /* Space between the image and the frame */
+    box-shadow: 0 4px 8px #004e42(0, 0, 0, 0.2);  /* Optional: shadow for a 3D effect */
+    transition: border-color 0.3s ease;        /* Smooth transition when the border color changes */
+}
+
+/* Hover effect for the framed image */
+.framed-image:hover {
+    border-color: goldenrod;   /* Frame color changes to orange on hover */
 }
 
 .logo{
-    width:30%;
-    border-radius: 5px;
+    width:10%;
+    border-radius: 1px;
     position:relative;
 }
+
+/* Styling for the image with the class 'custom-size-image' */
+.custom-size-image {
+    width: 120px;  /* Set the width of the image */
+    height: auto;  /* Let the height adjust automatically based on aspect ratio */
+}
+
 
 /* Body styles */
 .body {
@@ -63,7 +80,7 @@ main {
     margin-left: auto; 
     padding: auto;
     max-width: auto;
-    background-color: rgba(22, 109, 70, 0.85); 
+    background-color:(22, 109, 70, 0.85); 
     border-radius: 80px;
     text-align: center;
     position: center;
